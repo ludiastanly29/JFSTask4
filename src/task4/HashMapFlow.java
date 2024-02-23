@@ -12,8 +12,11 @@ public class HashMapFlow {
         Map<String, Integer> studentGrades = new HashMap<>();
         String name =null;
         Scanner scanner = new Scanner(System.in);
-	   	while (true) {
-	   		System.out.println("\nStudent Grade Management Menu:");
+	while (true) {
+	    System.out.println("\nStudent Grade Management Menu:");
+	    System.out.println();
+            System.out.println("------------------------------------------");
+            System.out.println();
             System.out.println("1. Add a student name and grade ");
             System.out.println("2. Remove a student ");
             System.out.println("3. Get a student's grade");
@@ -31,35 +34,60 @@ public class HashMapFlow {
 	                System.out.print("Enter the student's grade: ");
 	                int grade = scanner.nextInt();
 	                addStudentGrade(studentGrades, name, grade);
+	                System.out.println();
+	                System.out.println("------------------------------------------");
 	                System.out.println("\nAfter Adding "+name+"'s Grade:");
+	                System.out.println("------------------------------------------");
 	                System.out.println("Student Grades:");
 	                displayStudentGrades(studentGrades);
+	                System.out.println();
+	                System.out.println("------------------------------------------");
 	                break;
 	            case 2:
 	            	// Delete a student and their grade
 	            	System.out.print("Enter the student's name: ");
 	                name = scanner.next();
 	                deleteStudentGrade(studentGrades, name);
+	                System.out.println();
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	                System.out.println("\nAfter Deleting "+name+"'s Grade:");
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	                System.out.println("Student Grades:");
 	                displayStudentGrades(studentGrades);
+	                System.out.println();
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	                break;
 	            case 3:
 	            	// Display a specific student's grade
 	            	System.out.print("Enter the student name: ");
 	            	name = scanner.nextLine();
 	                displaySpecificStudentGrade(studentGrades, name);
+	                System.out.println();
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	                break;
 	            case 4:
 	            	// Display all students and their grades
 	            	displayStudentGrades(studentGrades);
+	            	System.out.println();
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	                break;
 	            case 5:
 	                System.out.println("Exiting the program. Goodbye!");
+	                System.out.println();
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	                System.exit(0);
 	
 	            default:
 	                System.out.println("Invalid choice. Please enter a valid option.");
+	                System.out.println();
+	                System.out.println("------------------------------------------");
+	                System.out.println();
 	        }
 	   	 }
 	}
