@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class DaysSystem {
 
 	public static void main(String[] args) {
-		 // Creating a days array
+		/*
+		*Creating a days array
+		*/
 		String[] days = new String[]{"Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"};
 		String dayName=null;
 		try {
@@ -14,6 +16,9 @@ public class DaysSystem {
  	           System.out.println("\nDays :");
  	           System.out.print("Enter the number for the day: ");
                    int index = scanner.nextInt();
+	   	   /*
+		   * print the day name based on the user given input
+		   */
                    dayName = days[index];
                    System.out.println("You have selected the "+dayName);
                    System.out.println();
