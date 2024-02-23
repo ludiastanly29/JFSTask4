@@ -1,0 +1,165 @@
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 1
+Enter the student's name: ludia
+Enter the student's grade: 90
+
+------------------------------------------
+
+After Adding ludia's Grade:
+------------------------------------------
+Student Grades:
+ludia's Grade : 90
+
+------------------------------------------
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 1
+Enter the student's name: lisah
+Enter the student's grade: 99
+
+------------------------------------------
+
+After Adding lisah's Grade:
+------------------------------------------
+Student Grades:
+ludia's Grade : 90
+lisah's Grade : 99
+
+------------------------------------------
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 1
+Enter the student's name: litasha
+Enter the student's grade: 97
+
+------------------------------------------
+
+After Adding litasha's Grade:
+------------------------------------------
+Student Grades:
+ludia's Grade : 90
+litasha's Grade : 97
+lisah's Grade : 99
+
+------------------------------------------
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 1
+Enter the student's name: stanly
+Enter the student's grade: 78
+
+------------------------------------------
+
+After Adding stanly's Grade:
+------------------------------------------
+Student Grades:
+stanly's Grade : 78
+ludia's Grade : 90
+litasha's Grade : 97
+lisah's Grade : 99
+
+------------------------------------------
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 2
+Enter the student's name: stanly
+
+------------------------------------------
+
+
+After Deleting stanly's Grade:
+------------------------------------------
+
+Student Grades:
+ludia's Grade : 90
+litasha's Grade : 97
+lisah's Grade : 99
+
+------------------------------------------
+
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 3
+Enter the student name: litasha
+
+litasha's Grade: 97
+
+------------------------------------------
+
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 4
+ludia's Grade : 90
+litasha's Grade : 97
+lisah's Grade : 99
+
+------------------------------------------
+
+
+Student Grade Management Menu:
+
+------------------------------------------
+
+1. Add a student name and grade 
+2. Remove a student 
+3. Get a student's grade
+4. Display all students
+5. Exit
+Enter your choice: 

@@ -1,0 +1,16 @@
+
+Voter System :
+Enter the voter id: 001222
+Enter the name: ludia
+Enter the age: 26
+Valid voter created: ludia
+
+--------------------------------------------------------
+
+Voter System :
+Enter the voter id: 00011222
+Enter the name: ludia
+Enter the age: 15
+Exception caught: Age should be above 18
+
+--------------------------------------------------------
