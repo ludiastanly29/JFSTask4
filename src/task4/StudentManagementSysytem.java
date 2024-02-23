@@ -2,7 +2,9 @@ package task4;
 
 import java.util.Scanner;
 
-//Exception class for invalid name
+/*
+*Exception class for invalid name
+*/
 class AgeNotWithinRangeException extends Exception {
 	
 	 public AgeNotWithinRangeException(String message) {
@@ -10,7 +12,9 @@ class AgeNotWithinRangeException extends Exception {
 	 }
 }
 
-//Exception class for invalid name
+/*
+*Exception class for invalid name
+*/
 class NameNotValidException extends Exception {
 	
 	 public NameNotValidException(String message) {
@@ -18,7 +22,9 @@ class NameNotValidException extends Exception {
 	 }
 }
 
-//Student class with parameterized constructor
+/*
+*Student class with parameterized constructor
+*/
 class Student{
 	
 	private String rollNo;
