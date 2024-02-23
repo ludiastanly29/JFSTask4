@@ -8,7 +8,9 @@ import java.util.Stack;
 public class HashMapFlow {
     
 	public static void main(String[] args) {
-		// Create a HashMap to store student names and their grades
+	/*
+	*Create a HashMap to store student names and their grades
+	*/
         Map<String, Integer> studentGrades = new HashMap<>();
         String name =null;
         Scanner scanner = new Scanner(System.in);
@@ -92,24 +94,32 @@ public class HashMapFlow {
 	   	 }
 	}
 
-	// Method to display all students and their grades
+    /*
+    *Method to display all students and their grades
+    */
     private static void displayStudentGrades(Map<String, Integer> studentGrades) {
         for (Map.Entry<String, Integer> entry : studentGrades.entrySet()) {
             System.out.println(entry.getKey() + "'s Grade : " + entry.getValue());
         }
     }
 
-    // Method to add a new student and their grade
+    /*
+    *Method to add a new student and their grade
+    */
     private static void addStudentGrade(Map<String, Integer> studentGrades, String studentName, int grade) {
         studentGrades.put(studentName, grade);
     }
 
-    // Method to delete a student and their grade
+    /*
+    *Method to delete a student and their grade
+    */
     private static void deleteStudentGrade(Map<String, Integer> studentGrades, String studentName) {
         studentGrades.remove(studentName);
     }
 
-    // Method to display the grade of a specific student
+    /*
+    *Method to display the grade of a specific student
+    */
     private static void displaySpecificStudentGrade(Map<String, Integer> studentGrades, String studentName) {
         Integer grade = studentGrades.get(studentName);
 
