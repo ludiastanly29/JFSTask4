@@ -72,15 +72,15 @@ class Student{
 		this.course = course;
 	}
 	
-	//Method to check if the age is in between 15 and 21
-	private boolean checkAgeRange(int age) {
+    //Method to check if the age is in between 15 and 21
+    private boolean checkAgeRange(int age) {
 		if (age < 15 || age > 21) {
             return false;
         }else {
         	return true;
         }
-	}
-	// Method to Check if the name is valid (does not contain numbers or special characters)
+    }
+    // Method to Check if the name is valid (does not contain numbers or special characters)
     private boolean checkName(String studentName) {
         return studentName.matches("^[a-zA-Z]+$");
     }
@@ -97,16 +97,19 @@ public class StudentManagementSysytem {
         	 while (true) {
  	           System.out.println("\nStudent Management System :");
  	           System.out.print("Enter the student's roll no: ");
-               String rollNo = scanner.nextLine();
-               System.out.print("Enter the student's name: ");
-               String name = scanner.nextLine();
-               System.out.print("Enter the student's age: ");
-               int age = Integer.parseInt(scanner.nextLine());
-               System.out.print("Enter the student's course: ");
-               String course = scanner.nextLine();
+	           String rollNo = scanner.nextLine();
+	           System.out.print("Enter the student's name: ");
+	           String name = scanner.nextLine();
+	           System.out.print("Enter the student's age: ");
+	           int age = Integer.parseInt(scanner.nextLine());
+	           System.out.print("Enter the student's course: ");
+	           String course = scanner.nextLine();
  	            
  	           Student validStudent = new Student(rollNo, name, age, course);
  	           System.out.println("Valid student created: " + validStudent.getName());
+ 	           System.out.println();
+	           System.out.println("------------------------------------------");
+	           System.out.println();
         	 }
         }catch (AgeNotWithinRangeException  e) {
             System.out.println("Exception caught: " + e.getMessage());
