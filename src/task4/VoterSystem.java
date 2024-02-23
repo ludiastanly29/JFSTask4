@@ -26,13 +26,16 @@ class Voter{
 		this.name = name;
 		this.age = age;
 		
-		//check if the age is above 18
+		/*
+		*check if the age is above 18 then will throw an exception
+		*/
 		if(!checkAgeRange(age)) {
-            throw new InvalidAgeException("Age should be above 18");
+            	  throw new InvalidAgeException("Age should be above 18");
 		}
 	}
-	
-	// Method to check if the age is above 18
+	/*
+	* Method to check if the age is above 18
+	*/
 	private boolean checkAgeRange(int age2) {
 		if (age < 18) {
             return false;
@@ -68,19 +71,24 @@ public class VoterSystem {
 	public static void main(String[] args) {
 
         try {
-            // Creating a valid voter
+		/*
+                * Creating a valid voter
+		*/
         	Scanner scanner = new Scanner(System.in);
         	 while (true) {
  	           System.out.println("\nVoter System :");
  	           System.out.print("Enter the voter id: ");
-               String voterId = scanner.nextLine();
-               System.out.print("Enter the name: ");
-               String name = scanner.nextLine();
-               System.out.print("Enter the age: ");
-               int age = Integer.parseInt(scanner.nextLine());
- 	            
-               Voter validStudent = new Voter(voterId, name, age);
+	           String voterId = scanner.nextLine();
+	           System.out.print("Enter the name: ");
+	           String name = scanner.nextLine();
+	           System.out.print("Enter the age: ");
+	           int age = Integer.parseInt(scanner.nextLine());
+	 	            
+	           Voter validStudent = new Voter(voterId, name, age);
  	           System.out.println("Valid voter created: " + validStudent.getName());
+ 	           System.out.println();
+ 	           System.out.println("------------------------------------------");
+ 	           System.out.println();
         	 }
         }catch (InvalidAgeException  e) {
             System.out.println("Exception caught: " + e.getMessage());
