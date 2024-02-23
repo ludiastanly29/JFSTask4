@@ -2,7 +2,9 @@ package task4;
 
 import java.util.Scanner;
 
-//Exception class for invalid name
+/*
+*Exception class for invalid name
+*/
 class InvalidAgeException extends Exception {
 	
 	 public InvalidAgeException(String message) {
@@ -10,7 +12,9 @@ class InvalidAgeException extends Exception {
 	 }
 }
 
-//Voter class with parameterised constructor
+/*
+*Voter class with parameterised constructor
+*/
 class Voter{
 
 	private String voterId;
@@ -20,7 +24,9 @@ class Voter{
 	public Voter() {
 		
 	}
-	// Parameterized constructor
+	/*
+ 	*Parameterized constructor
+  	*/
 	public Voter(String voterId, String name, int age) throws InvalidAgeException {
 		this.voterId = voterId;
 		this.name = name;
