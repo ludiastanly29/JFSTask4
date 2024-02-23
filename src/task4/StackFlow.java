@@ -74,14 +74,18 @@ public class StackFlow {
 	   	 }
 	}
 
-	// Method to save the integer in to the stack
+	/*
+	*Method to save the integer in to the stack
+	*/
 	private static void popElements(Stack<Integer> integerStack) {
         int poppedElement = integerStack.pop();
         System.out.println("Popped element: " + poppedElement);
 		
 	}
 
-	// Method to remove the integer in to the stack
+	/*
+	*Method to remove the integer in to the stack
+	*/
 	private static void pushElements(Stack<Integer> integerStack,int number) {
         integerStack.push(number);
         System.out.println("The number "+number+" saved Succesfully");
