@@ -13,9 +13,12 @@ public class DaysSystem {
         	 while (true) {
  	           System.out.println("\nDays :");
  	           System.out.print("Enter the number for the day: ");
-               int index = scanner.nextInt();
-               dayName = days[index];
-               System.out.println("You have selected the "+dayName);
+                   int index = scanner.nextInt();
+                   dayName = days[index];
+                   System.out.println("You have selected the "+dayName);
+                   System.out.println();
+ 	           System.out.println("------------------------------------------");
+ 	           System.out.println();
         	 }
         }catch (ArrayIndexOutOfBoundsException  e) {
             System.out.println("ArrayIndexOutOfBoundsException: Index should be between 0 and " + (days.length - 1));
